@@ -1,0 +1,177 @@
+:root {
+  --color-web-blue: #2196f3;
+  --color-text-main: #212121;
+  --color-text-secondary: #757575;
+  --color-fone: #f5f5f5;
+}
+.web {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+
+  letter-spacing: 0.03em;
+
+  color: #2196f3;
+  .
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
+}
+img {
+  display: block;
+}
+body {
+  font-family: roboto, sans-serif;
+}
+footer {
+  background-color: #2f303a;
+}
+.logo {
+  font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+
+letter-spacing: 0.03em;
+
+color: #000000;
+
+}
+.contact-link {
+  color: var(--color-text-secondary);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.logo:hover,
+.logo:focus,
+.link:hover,
+.link:focus,
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--color-web-blue);
+}
+.contact-link,
+.link {
+  color: var(--color-text-main);
+}
+.link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.hero h1 {
+  background-color: #2f303a;
+  font-size: 44px;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.37;
+  letter-spacing: 6%;
+  text-align: center;
+}
+.hero-order {
+  background-color: var(--color-web-blue);
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+.feature-h {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+.feature-description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.about-us {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1, 17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.link {
+  color: var(--color-text-main);
+}
+.comand {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.comand-p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.portf-menu {
+  color: var(--color-text-main);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.projects-h {
+  color: var(--color-text-main);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20;
+
+  letter-spacing: 0.06em;
+}
+.projects-p {
+  color: var(--color-text-secondary);
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+
+  letter-spacing: 0.03em;
+}
+.link-maps {
+  color: white;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+
+  letter-spacing: 0.03em;
+}
+.link-footer {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
