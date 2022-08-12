@@ -3,6 +3,7 @@
   --color-text-main: #212121;
   --color-text-secondary: #757575;
   --color-fone: #f5f5f5;
+
 }
 .web {
   font-family: "Raleway";
@@ -14,13 +15,14 @@
   letter-spacing: 0.03em;
 
   color: #2196f3;
-  .
+  
 }
 
 ul {
   list-style: none;
 }
 a {
+  
   text-decoration: none;
 }
 button {
@@ -36,7 +38,7 @@ footer {
   background-color: #2f303a;
 }
 .logo {
-  font-family: 'Raleway';
+font-family: 'Raleway';
 font-style: normal;
 font-weight: 700;
 font-size: 26px;
@@ -47,7 +49,7 @@ letter-spacing: 0.03em;
 color: #000000;
 
 }
-.contact-link {
+.contact contact-link {
   color: var(--color-text-secondary);
   font-weight: 500;
   font-size: 14px;
@@ -59,9 +61,13 @@ color: #000000;
 .link:hover,
 .link:focus,
 .contact-link:hover,
-.contact-link:focus {
+.contact-link:focus,
+.contact-link-footer:hover,
+.contact-link-footer:focus {
   color: var(--color-web-blue);
 }
+.contact-link-footer {color:rgba(255, 255, 255, 0.6);
+;}
 .contact-link,
 .link {
   color: var(--color-text-main);
@@ -74,6 +80,7 @@ color: #000000;
 }
 
 .hero h1 {
+  color: #FFFFFF;;
   background-color: #2f303a;
   font-size: 44px;
   font-weight: 900;
@@ -84,7 +91,7 @@ color: #000000;
 }
 .hero-order {
   background-color: var(--color-web-blue);
-
+  color: #FFFFFF;;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -110,7 +117,7 @@ color: #000000;
 .about-us {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1, 17;
+  line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -133,7 +140,7 @@ color: #000000;
   text-align: center;
   letter-spacing: 0.03em;
 }
-.portf-menu {
+.menu-portfolio {
   color: var(--color-text-main);
   font-weight: 500;
   font-size: 16px;
@@ -166,12 +173,24 @@ color: #000000;
 
   letter-spacing: 0.03em;
 }
-.link-footer {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
+.contact-link contact {
+  color: var(--color-text-secondary;
+  font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
 
   letter-spacing: 0.03em;
 
   color: rgba(255, 255, 255, 0.6);
+}
+.contact-link-footer {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+
+
+
 }
