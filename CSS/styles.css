@@ -17,7 +17,10 @@
   color: #2196f3;
   
 }
-
+address {
+font-family: Roboto;
+font-style: normal;
+}
 ul {
   list-style: none;
 }
@@ -49,22 +52,25 @@ letter-spacing: 0.03em;
 color: #000000;
 
 }
-.contact contact-link {
+.contact-link-contact 
+ {
   color: var(--color-text-secondary);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.logo:hover,
+.link-maps:hover,
 .logo:focus,
 .link:hover,
 .link:focus,
-.contact-link:hover,
-.contact-link:focus,
+.contact-link-contact:hover,
+.contact-link-contact:focus,
 .contact-link-footer:hover,
-.contact-link-footer:focus {
-  color: var(--color-web-blue);
+.contact-link-footer:focus,
+.menu-portfolio-btn:hover,
+.menu-portfolio--btn:focus {
+color: var(--color-web-blue);
 }
 .contact-link-footer {color:rgba(255, 255, 255, 0.6);
 ;}
@@ -77,6 +83,7 @@ color: #000000;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+
 }
 
 .hero h1 {
@@ -108,6 +115,7 @@ color: #000000;
   letter-spacing: 0.03em;
 }
 .feature-description {
+  color: var(--color-text-secondary);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -134,13 +142,15 @@ color: #000000;
   letter-spacing: 0.03em;
 }
 .comand-p {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.19;
-  text-align: center;
-  letter-spacing: 0.03em;
+color: var(--color-text-secondary);
+font-weight: 400;
+font-size: 16px;
+line-height: 1.19;
+
+text-align: center;
+letter-spacing: 0.03em;
 }
-.menu-portfolio {
+.menu-portfolio-btn {
   color: var(--color-text-main);
   font-weight: 500;
   font-size: 16px;
@@ -148,11 +158,14 @@ color: #000000;
   text-align: center;
   letter-spacing: 0.03em;
 }
+.projects {
+  background: var(--color-fone);
+}
 .projects-h {
   color: var(--color-text-main);
   font-weight: 700;
   font-size: 18px;
-  line-height: 20;
+  line-height: 2;
 
   letter-spacing: 0.06em;
 }
@@ -174,8 +187,8 @@ color: #000000;
   letter-spacing: 0.03em;
 }
 .contact-link contact {
-  color: var(--color-text-secondary;
-  font-weight: 500;
+color: var(--color-text-secondary;)
+font-weight: 500;
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
@@ -190,7 +203,8 @@ font-weight: 400;
 font-size: 14px;
 line-height: 1.7;
 letter-spacing: 0.03em;
-
-
-
 }
+.studio {
+  color: #FFFFFF;
+}
+
