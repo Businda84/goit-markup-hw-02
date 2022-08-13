@@ -60,6 +60,7 @@ color: #000000;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+
 .link-maps:hover,
 .logo:focus,
 .link:hover,
@@ -69,7 +70,7 @@ color: #000000;
 .contact-link-footer:hover,
 .contact-link-footer:focus,
 .menu-portfolio-btn:hover,
-.menu-portfolio--btn:focus {
+.menu-portfolio-btn:focus {
 color: var(--color-web-blue);
 }
 .contact-link-footer {color:rgba(255, 255, 255, 0.6);
